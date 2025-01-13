@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: "Roboto", serif;
+  font-family: "Roboto Condensed", serif;
 }
 
 a{
@@ -89,4 +89,38 @@ main {
   background-color: #303030;
   color:white;
   padding: 20px 0;
+}
+
+.bottom-footer button {
+  background-color: inherit;
+  border:#0282f9 1px solid;
+  padding: 10px;
+  color:white;
+}
+
+.social-bar{
+  height:50px;
+}
+
+.social-bar span{
+  color: #0282f9;
+  font-weight:bold;
+  font-size: 1.2rem;
+  padding-right:20px;
+}
+
+.social-bar ul{
+  gap:10px;
+}
+
+.bottom-footer li i{
+  line-height: 30px;
+  margin-top:15px;
+  text-align: center;
+  width:30px;
+  height:30px;
+  background-color: #807f7f;
+  color: #303030;
+  border-radius: 50%;
+  font-size:1.3rem;
 }

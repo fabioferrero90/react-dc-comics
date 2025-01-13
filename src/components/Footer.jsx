@@ -1,36 +1,9 @@
-import digitalComicsImg from '../assets/img/buy-comics-digital-comics.png';
-import merchandiseImg from '../assets/img/buy-comics-merchandise.png';
-import shopLocatorImg from '../assets/img/buy-comics-shop-locator.png';
-import subscriptionsImg from '../assets/img/buy-comics-subscriptions.png';
-import dcPowerVisaImg from '../assets/img/buy-dc-power-visa.svg';
 
+import BlueNavBar from './BlueNavBar';
 const Footer = () => {
   return (
     <footer>
-      <div className="top-footer">
-        <div className="container d-flex justify-content-center">
-          <a href="#" className="buynav-button">
-            <img src={digitalComicsImg} alt="Digital Comics" />
-            <span>Digital Comics</span>
-          </a>
-          <a href="#" className="buynav-button">
-            <img src={merchandiseImg} alt="Merchandise" />
-            <span>DC Merchandise</span>
-          </a>
-          <a href="#" className="buynav-button">
-            <img src={subscriptionsImg} alt="Subscription" />
-            <span>Subscription</span>
-          </a>
-          <a href="#" className="buynav-button">
-            <img src={shopLocatorImg} alt="Shop Locator" />
-            <span>Comic Shop Locator</span>
-          </a>
-          <a href="#" className="buynav-button">
-            <img src={dcPowerVisaImg} alt="Power VISA" />
-            <span>DC Power Visa</span>
-          </a>
-        </div>
-      </div>
+      <BlueNavBar />
       <div className="mid-footer">
         <div className="container d-flex justify-content-center">
           <div className="menu-footer d-flex flex-wrap flex-column w-50">
@@ -85,8 +58,20 @@ const Footer = () => {
         </div>
       </div>
       <div className="bottom-footer">
-        <div className="container">
-          Footer Bar
+        <div className="container d-flex justify-content-between">
+          <div className="signup-button">
+            <button>SIGN-UP NOW!</button>
+          </div>
+          <div className="social-bar d-flex align-items-center justify-content-center">
+            <span>FOLLOW US</span>
+            <ul className="d-flex justify-content-between align-items-center">
+              <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i className="fab fa-youtube"></i></a></li>
+              <li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
+              <li><a href="#"><i className="fab fa-periscope"></i></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

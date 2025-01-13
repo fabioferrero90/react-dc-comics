@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: "Roboto Condensed", serif;
+  font-family: "Open Sans", serif;
 }
 
 a{
@@ -17,8 +17,12 @@ ul{
 }
 
 /* HEADER  */
+header{
+  height:120px;
+}
+
 .nav-link{
-  font-size:0.8rem;
+  font-size:0.85rem;
   font-weight: bold;
   color:black;
 }
@@ -28,8 +32,19 @@ ul{
   font-weight: bold;
 }
 
-header {
-  padding: 5px 0;
+.nav-link.active::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #0282f9;
+  position: absolute;
+  bottom: -42px;
+  left: 0;
+}
+
+.nav-item {
+  position: relative;
 }
 
 /* MAIN  */

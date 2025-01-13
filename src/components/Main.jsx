@@ -1,6 +1,10 @@
 const Main = () => {
   return (
-    <div>Main</div>
+    <main>
+      <div className="container">
+        <h2>-&gt; Content goes Here &gt;--</h2>
+      </div>
+    </main>
   )
 }
 

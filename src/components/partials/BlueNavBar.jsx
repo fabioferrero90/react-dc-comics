@@ -7,7 +7,7 @@ import styles from './BlueNavBar.module.css';
 
 function BlueNavBar() {
   return (
-    <div className="top-footer">
+    <div className={styles.buynavBar}>
       <div className="container d-flex justify-content-center">
         <a href="#" className={styles.buynavButton}>
           <img className={styles.buynavImg} src={digitalComicsImg} alt="Digital Comics" />

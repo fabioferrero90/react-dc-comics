@@ -55,25 +55,18 @@ main {
 }
 
 /* FOOTER  */
-
 .top-footer{
-  background-color: #0282f9;
-  color:white;
-  padding: 50px 0;
-}
-
-.mid-footer{
   background-image: url("./assets/img/footer-bg.jpg");
   color:white;
 }
 
-.mid-footer .dc-logo {
+.top-footer .dc-logo {
   overflow: hidden;
   background-image: url("./assets/img/dc-logo-bg.png");
   background-position:50%;
 }
 
-.mid-footer .menu-footer {
+.top-footer .menu-footer {
   padding:30px 0;
   max-height:500px;
 }

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <BlueNavBar />
-      <div className="mid-footer">
+      <div className="top-footer">
         <div className="container d-flex justify-content-center">
           <div className="menu-footer d-flex flex-wrap flex-column w-50">
             <div className="menu">

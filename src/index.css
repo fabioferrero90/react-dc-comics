@@ -64,6 +64,7 @@ main {
 .top-footer .dc-logo {
   overflow: hidden;
   background-image: url("./assets/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
   background-position:50%;
 }
 
@@ -77,7 +78,8 @@ main {
 }
 
 .menu-footer ul{
-  color:#807f7f
+  color:#807f7f;
+  padding-left:0;
 }
 
 .bottom-footer{

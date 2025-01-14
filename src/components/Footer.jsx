@@ -1,9 +1,7 @@
 
 import BlueNavBar from './partials/BlueNavBar';
 const Footer = (props) => {
-
   const { DCComicsFooterMenu, ShopFooterMenu, DCFooterMenu, SitesFooterMenu } = props.menus;
-
   return (
     <footer>
       <BlueNavBar />

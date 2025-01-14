@@ -6,7 +6,7 @@ import menuData from './data/menus';
 const App = () => {
   return (
     <>
-      <Header />
+      <Header menus={menuData}/>
       <Main />
       <Footer menus={menuData} />
     </>

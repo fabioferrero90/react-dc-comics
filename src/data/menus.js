@@ -1,4 +1,16 @@
 const menus = {
+  HeaderMenu: [
+    { id: 1, url: "#", name: "Characters", isActive: false },
+    { id: 2, url: "#", name: "Comics", isActive: true },
+    { id: 3, url: "#", name: "Movies", isActive: false },
+    { id: 4, url: "#", name: "TV", isActive: false },
+    { id: 5, url: "#", name: "Games", isActive: false },
+    { id: 6, url: "#", name: "Collectibles", isActive: false },
+    { id: 7, url: "#", name: "Videos", isActive: false },
+    { id: 8, url: "#", name: "Fans", isActive: false },
+    { id: 9, url: "#", name: "News", isActive: false },
+    { id: 10, url: "#", name: "Shop", isActive: false }
+  ],
   DCComicsFooterMenu: [
     { id: 1, url: "#", name: "Characters" },
     { id: 2, url: "#", name: "Comics" },

@@ -1,4 +1,7 @@
-const Header = () => {
+
+
+const Header = (props) => {
+    const { HeaderMenu } = props.menus;
   return (
     <header className="container d-flex justify-content-center">
       <nav className="navbar navbar-expand-lg d-flex justify-content-between align-content-center w-100 h-100">
@@ -7,36 +10,11 @@ const Header = () => {
         </a>
         <div className="collapse navbar-collapse w-100" id="navbarNav">
             <ul className="navbar-nav">
-                <li className="nav-item">
-                    <a className="nav-link" href="#">CHARACTERS</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link active" href="#">COMICS</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">MOVIES</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">TV</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">GAMES</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">COLLECTIBLES</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">VIDEOS</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">FANS</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">NEWS</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">SHOP</a>
-                </li>
+                {HeaderMenu.map(item => (
+                    <li key={`hd-${item.id}`} className="nav-item">
+                        <a className={`nav-link ${item.isActive ? "active" : ""}`} href="#">{item.name}</a>
+                    </li>
+                ))}
             </ul>
         </div>
     </nav>

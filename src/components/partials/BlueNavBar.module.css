@@ -1,0 +1,13 @@
+.buynavButton{
+  margin: 0 10px;
+}
+
+.buynavImg{
+  height:40px;
+  margin:0 10px;
+}
+
+.buynavSpan{
+  text-transform: uppercase;
+  color:white;
+}

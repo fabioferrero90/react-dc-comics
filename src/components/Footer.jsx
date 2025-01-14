@@ -1,5 +1,5 @@
 
-import BlueNavBar from './BlueNavBar';
+import BlueNavBar from './partials/BlueNavBar';
 const Footer = () => {
   return (
     <footer>
